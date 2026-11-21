@@ -2,7 +2,7 @@ package ru.yandex.practicum.sleeptracker;
 
 import java.util.List;
 
-public class BadQualitySessionsAnalyzer implements SleepAnalyzer<Integer>{
+public class BadQualitySessionsAnalyzer implements SleepAnalyzer<Integer> {
     @Override
     public Integer analyze(List<SleepSession> sessions) {
         return (int) sessions.stream()
