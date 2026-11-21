@@ -10,7 +10,7 @@ public class TotalSessionsAnalyzer implements SleepAnalyzer<Integer> {
     }
 
     @Override
-    public String getName(){
+    public String getName() {
         return "Всего сессий сна";
     }
 
