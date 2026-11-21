@@ -2,7 +2,7 @@ package ru.yandex.practicum.sleeptracker;
 
 import java.util.List;
 
-public class AverageDurationAnalyzer implements SleepAnalyzer<Double>{
+public class AverageDurationAnalyzer implements SleepAnalyzer<Double> {
     @Override
     public Double analyze(List<SleepSession> sessions) {
         return sessions.stream()
