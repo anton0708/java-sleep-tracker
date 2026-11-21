@@ -17,7 +17,7 @@ class MinDurationAnalyzerTest {
     }
 
     @Test
-    void shouldRetrunMinDuration(){
+    void shouldRetrunMinDuration() {
         SleepSession s1 = new SleepSession(
                 LocalDateTime.of(2025, 10, 1, 22, 15),
                 LocalDateTime.of(2025, 10, 2, 8, 0),
